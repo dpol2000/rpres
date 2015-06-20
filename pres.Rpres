@@ -9,9 +9,10 @@ Introduction
 
 The course projects aims to present a simple shiny application.
 The Linear Regression app shows a set of points and a regression line 
-calculated according to these points. You can see it at: https://dpol2000.shinyapps.io/regression
+calculated according to these points. You can see it at: https://dpol2000.shinyapps.io/regression.
 
-The presentation was made with Rstudio Presenter.
+The presentation was made with Rstudio Presenter. You can see the full code at 
+https://github.com/dpol2000/rpres/tree/gh-pages.
 
 What the app does
 ========================================================
@@ -32,7 +33,8 @@ The results
 ========================================================
 
 After the regression analysis the result is shown on the plot. The actual points
-are shown in green and predicted ones together with the regression line in blue.
+are shown in green and predicted ones together with the regression line in blue 
+(the plot below executes exactly the same R code).
 The app also shows the intercept, the slope, and the mean squared error of the model.
 
 ```{r, echo=FALSE}
