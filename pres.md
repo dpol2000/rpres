@@ -28,14 +28,15 @@ With the help of user input the app gets all the parameters:
 - the lower limit of the noise factor
 - the higher limit of the noise factor
 
+The app shows the plot, the estimated intercept, the slope, and the mean squared error of the model.
+
 
 The results
 ========================================================
 
 After the regression analysis the result is shown on the plot. The actual points
 are shown in green and predicted ones together with the regression line in blue 
-(the plot below executes exactly the same R code).
-The app also shows the intercept, the slope, and the mean squared error of the model.
+(the plot below executes exactly the same R code). 
 
 ![plot of chunk unnamed-chunk-1](pres-figure/unnamed-chunk-1-1.png) 
 
